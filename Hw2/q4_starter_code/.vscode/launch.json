@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--dataset",
+                "enzymes",
+                "--model_type",
+                "GraphSage",
+                "--hidden_dim",
+                "64",
+                "--dropout",
+                "0.0",
+                "--weight_decay",
+                "0e-4",
+                "--lr",
+                "0.001",
+                "--epochs",
+                "1000"
+            ]
+        }
+    ]
+}
