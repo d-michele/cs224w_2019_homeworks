@@ -1,17 +1,12 @@
 
 import argparse
-import time
 
-import networkx as nx
 import numpy as np
 import torch
-import torch.optim as optim
 
 from torch_geometric.datasets import TUDataset
 from torch_geometric.datasets import Planetoid
 from torch_geometric.data import DataLoader
-
-import torch_geometric.nn as pyg_nn
 
 import matplotlib.pyplot as plt
 
